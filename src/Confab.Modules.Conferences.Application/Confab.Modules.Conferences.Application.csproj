@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Confab.Modules.Conferences.Core\Confab.Modules.Conferences.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Convey.CQRS.Commands" Version="1.0.541" />
+      <PackageReference Include="Convey.CQRS.Queries" Version="1.0.541" />
+    </ItemGroup>
+
+</Project>

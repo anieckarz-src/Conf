@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59B93571-BA3A-478D-9CE4-18CF0CF40F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CBAB95AB-C944-4D3B-A044-3A1029F89CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{71D13A96-E7E4-4ED7-A536-AC0EBB551FBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{16D352F1-EA43-47E1-9824-82A496DCE9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{51A87363-5614-4CAF-B1DB-5FD21640276E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Bootstrapper", "Confab.Bootstrapper\Confab.Bootstrapper.csproj", "{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Shared.Abstractions", "src\Shared\Confab.Shared.Abstractions\Confab.Shared.Abstractions.csproj", "{9D33B485-DC1A-4831-BCBE-F479E82C6ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Shared.Infrastructure", "src\Shared\Confab.Shared.Infrastructure\Confab.Shared.Infrastructure.csproj", "{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Conferences.Api", "src\Confab.Modules.Conferences.Api\Confab.Modules.Conferences.Api.csproj", "{6BB8FD09-3324-494D-B3D6-218413DE8565}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conferences", "Conferences", "{E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Conferences.Core", "src\Confab.Modules.Conferences.Core\Confab.Modules.Conferences.Core.csproj", "{F26374B8-E371-4F37-BD57-3DAA80E86F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Conferences.Infrastructure", "src\Confab.Modules.Conferences.Infrastructure\Confab.Modules.Conferences.Infrastructure.csproj", "{E13F3F76-2024-49F8-A9C4-E4974C06865E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Conferences.Application", "src\Confab.Modules.Conferences.Application\Confab.Modules.Conferences.Application.csproj", "{F8E006E2-9E4A-4547-9A83-F1E002F5148B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71D13A96-E7E4-4ED7-A536-AC0EBB551FBC} = {59B93571-BA3A-478D-9CE4-18CF0CF40F38}
+		{16D352F1-EA43-47E1-9824-82A496DCE9A2} = {59B93571-BA3A-478D-9CE4-18CF0CF40F38}
+		{51A87363-5614-4CAF-B1DB-5FD21640276E} = {59B93571-BA3A-478D-9CE4-18CF0CF40F38}
+		{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC} = {71D13A96-E7E4-4ED7-A536-AC0EBB551FBC}
+		{9D33B485-DC1A-4831-BCBE-F479E82C6ADA} = {51A87363-5614-4CAF-B1DB-5FD21640276E}
+		{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C} = {51A87363-5614-4CAF-B1DB-5FD21640276E}
+		{E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3} = {16D352F1-EA43-47E1-9824-82A496DCE9A2}
+		{6BB8FD09-3324-494D-B3D6-218413DE8565} = {E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3}
+		{F26374B8-E371-4F37-BD57-3DAA80E86F81} = {E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3}
+		{E13F3F76-2024-49F8-A9C4-E4974C06865E} = {E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3}
+		{F8E006E2-9E4A-4547-9A83-F1E002F5148B} = {E52E551F-801B-49CA-AFCC-DAEDEF8ACBC3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1031F7C5-1D12-4052-85CA-8EFCBA9BEFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D33B485-DC1A-4831-BCBE-F479E82C6ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D33B485-DC1A-4831-BCBE-F479E82C6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D33B485-DC1A-4831-BCBE-F479E82C6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D33B485-DC1A-4831-BCBE-F479E82C6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4936F0-F725-4F92-8CB2-A23E6BDE0B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB8FD09-3324-494D-B3D6-218413DE8565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB8FD09-3324-494D-B3D6-218413DE8565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB8FD09-3324-494D-B3D6-218413DE8565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB8FD09-3324-494D-B3D6-218413DE8565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26374B8-E371-4F37-BD57-3DAA80E86F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26374B8-E371-4F37-BD57-3DAA80E86F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26374B8-E371-4F37-BD57-3DAA80E86F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26374B8-E371-4F37-BD57-3DAA80E86F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13F3F76-2024-49F8-A9C4-E4974C06865E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13F3F76-2024-49F8-A9C4-E4974C06865E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13F3F76-2024-49F8-A9C4-E4974C06865E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13F3F76-2024-49F8-A9C4-E4974C06865E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E006E2-9E4A-4547-9A83-F1E002F5148B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E006E2-9E4A-4547-9A83-F1E002F5148B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E006E2-9E4A-4547-9A83-F1E002F5148B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E006E2-9E4A-4547-9A83-F1E002F5148B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
